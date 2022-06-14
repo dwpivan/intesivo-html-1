@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+ img {
+     max-width: 100%;
+}
+ body {
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+}
+ h1 {
+     font-size: 56px;
+}
+ h3 {
+     color: #13AAFF;
+}
+ figure {
+     margin: 0;
+     padding: 0;
+}
+ header {
+     background-image: url("../img/header.svg");
+     background-size: cover;
+     border-top-left-radius: 24px;
+     border-top-right-radius: 24px;
+     height: 144px;
+}
+
+section>h1 {
+    margin-top: 80px;
+}
+ .wrapper {
+     padding: 5px;
+     max-width: 1160px;
+     width: 95%;
+     margin: 20px auto;
+}
+ .cabecera {
+     display: flex;
+     flex-flow: row wrap;
+     margin: -80px 45px;
+     position: relative;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px 50px;
+}
+ section:nth-of-type(1) {
+     margin-top: -80px;
+     padding-bottom: 40px;
+     position: relative;
+     width: 100%;
+}
+ section:nth-of-type(1) figure:nth-of-type(2) {
+     position: relative;
+     top: -40px;
+     right: 45px;
+}
+ .column {
+     flex: 1;
+     margin: 2px;
+     padding: 10px;
+}
+ footer {
+     padding: 0 15px;
+}
+ @media screen and (max-width: 980px) {
+     .container .column {
+         margin-bottom: 5px;
+         flex-basis: 40%;
+    }
+}
+ @media screen and (max-width: 680px) {
+     .container .column {
+         flex-basis: 100%;
+         margin: 0 0 5px 0;
+    }
+}
+ 
